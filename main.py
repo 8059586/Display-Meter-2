@@ -3,7 +3,7 @@ from firebase_admin import firestore
 from firebase_admin import credentials
 from flask import Flask , request , render_template , jsonify
 
-cred = credentials.Certificate("potentiometer-9e07c-firebase-adminsdk-p3dyz-cc8f975108.json")
+cred = credentials.Certificate("mykey.json")
 firebase_admin.initialize_app(cred)
 db_client = firestore.client()
 app = Flask(__name__)
