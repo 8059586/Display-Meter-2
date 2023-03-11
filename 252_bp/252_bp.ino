@@ -1,5 +1,5 @@
-const char ssid[] = "C98EFC";
-const char password[] = "34042304";
+const char ssid[] = "MYSSID";
+const char password[] = "PASSWORD";
 
 String api = "http://192.168.1.6:5000/add";
 
